@@ -1,0 +1,126 @@
+/* .footer {
+    background: linear-gradient(180deg, #f0eaec 0%, rgba(225, 255, 234, 0.13) 60%) !important;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.box-container .box h3 {
+    color: black;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.box-container .box p {
+    color: #202020;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.footer .box-container .box p i {
+    color: black;
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box p:hover i {
+
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid lightgrey;
+    font-size: 3rem;
+    color: #202020;
+}
+
+.footer .credit span {
+    color: black;
+} */
+.footer{
+    background: linear-gradient(180deg,#f0eaec 0%,rgba(225,225,224,0.13) 60%) !important;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 3rem;
+}
+.box h3{
+    color: black;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.box p{
+    color: #202020;
+    font-size: 1.5rem;
+    display: block;
+}
+.box p i{
+    padding-right: .5rem;
+    color: black;
+    transition: .2s linear;
+}
+.box p:hover i{
+    padding-right: 2rem;
+}
+.credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top:.1rem solid lightgray;
+    font-size: 3rem;
+    color: #202020;
+
+}
+.credit span{
+    color: black;
+}
+@media(max-width:500px){
+    
+}
+@media only screen and (max-width: 1200px) {
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .box-container {
+        
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .box-container .box {
+        text-align: center;
+    }
+    
+    .box-container .box h3 {
+        font-size: 2rem;
+    }
+    
+    .box-container .box p {
+        font-size: 1.2rem;
+    }
+    
+    .footer .credit {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,108 @@
+.login_sign_up{
+    width: 100%;
+    height: 80vh;
+    padding-top: 100px;
+    background: #fce3fe;
+}
+.login_sign_up-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.login_sign_up-container h1{
+    margin: 20px 0px;
+}
+.login_sign_up-fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 29px;
+}
+.login_sign_up-fields input{
+    width: 100%;
+    height: 72px;
+    outline: none;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.login_sign_up-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: #ff4141;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+.login_sign_up_login{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5c5c5c;
+}
+.login_sign_up_login span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.login_sign_up_agree{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5c5c5c;
+}
+@media(max-width:1280px){
+    .login_sign_up{
+        padding-top: 50px;
+    }
+    .login_sign_up-container{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .login_sign_up-container h2{
+        margin: 10px 0px;
+    }
+    .login_sign_up-fields{
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .login_sign_up-fields input{
+        height: 65px;
+        width: 93%;
+    }
+    .login_sign_up-container button{
+        width: 100%;
+    }
+    .login_sign_up_login{
+        font-size: 16px;
+    }
+    .login_sign_up_agree{
+        font-size: 14px;
+    }
+}
+@media(max-width:800px){
+    .login_sign_up-container{
+        padding: 20px 30px;
+    }
+    .login_sign_up-container h1{
+        font-size: 24px;
+    }
+    .login_sign_up-fields input{
+        height: 50px;
+    }
+    .login_sign_up-container button{
+        height: 50px;
+        font-size: 16px;
+    }
+
+}
+
