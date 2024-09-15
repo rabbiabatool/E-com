@@ -13,14 +13,15 @@ export default function List_Product(){
     //     .then((data)=>{setAllProducts(data)});
     // }
 
-
-    useEffect(()=>{
-        let products=JSON.parse(localStorage.getItem('Products'))|| [];
-        setProducts(products);
-
-
-        // fetchInfo();
-    });
+    useEffect(() => {
+        const fetchInfo = () => {
+            let products = JSON.parse(localStorage.getItem('Products')) || [];
+            console.log(products);
+            setProducts(products);
+        };
+    
+        fetchInfo();
+    }, []);
 
     return(
         <div className="list-product">
